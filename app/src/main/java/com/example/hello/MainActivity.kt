@@ -21,13 +21,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.nextbtn1.setOnClickListener{
-            val intent = Intent(this,SecondBirdActivity::class.java)
+            val intent = Intent(this,FourthBirdActivity::class.java)
             startActivity(intent)
 
         }
             Picasso
                 .get()
-            .load( " https://images.unsplash.com/photo-1614397941762-055adc5fdec6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29sb3JmdWwlMjBiaXJkfGVufDB8fDB8fHww")
+            .load( "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmlyZHxlbnwwfHwwfHx8MA%3D%3D")
             .into(binding.imageView5)
         }
     }

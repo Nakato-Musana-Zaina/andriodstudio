@@ -18,7 +18,7 @@ lateinit var binding: ActivityThirdBird2Binding
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-    binding = ActivityThirdBird2Binding.inflate(layoutInflater)
+        binding = ActivityThirdBird2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.prevbtn3.setOnClickListener{
@@ -30,8 +30,8 @@ lateinit var binding: ActivityThirdBird2Binding
         }
         Picasso
             .get()
-            .load(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXUsGcR-D8II_jTo9lMgA7hEZvT0K8KR97x_z_hFs_Z14Mm3_Ojh6DyGAA-JN_zwVdGY&usqp=CAU")
-            .into(binding.nextbtn4)
+            .load("https://images.unsplash.com/photo-1518992028580-6d57bd80f2dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJpcmR8ZW58MHx8MHx8fDA%3D ")
+            .into(binding.imageView6)
     }
 
 }

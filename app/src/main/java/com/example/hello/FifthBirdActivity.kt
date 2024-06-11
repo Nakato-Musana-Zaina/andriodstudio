@@ -26,8 +26,8 @@ binding = ActivityFifthBinding.inflate(layoutInflater)
         }
         Picasso
             .get()
-            .load("https://media.istockphoto.com/id/518283050/photo/male-of-plumbeous-water-redstart-the-chu.jpg?s=612x612&w=0&k=20&c=GUTq7n03VwMWOTC0wKv6E3rhsJC0k_claP0Aa7_E2p4=")
-            .into(binding.prevbtn4)
+            .load(" https://images.unsplash.com/photo-1553736277-055142d018f0?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+            .into(binding.imageView14)
 
     }
 }
